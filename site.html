@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<title>Achadinhos Baratos</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background: linear-gradient(rgba(80,140,220,0.4), rgba(80,140,220,0.4)), url("foto.webp");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+/* HELLO KITTY DECORAÇÃO */
+
+.hello{
+position:absolute;
+width:90px;
+opacity:0.9;
+}
+
+.hello1{
+top:20px;
+left:20px;
+}
+
+    .hello2 {
+        bottom: 20px;
+        right: 20px;
+        width: 180px;
+        transform: rotate(-10deg);
+    }
+
+/* CARD */
+
+.container{
+
+width:90%;
+max-width:380px;
+
+background: rgba(255,255,255,0.18);
+backdrop-filter: blur(15px);
+-webkit-backdrop-filter: blur(15px);
+
+border-radius:25px;
+padding:35px;
+
+border:1px solid rgba(255,255,255,0.3);
+box-shadow:0 10px 40px rgba(0,0,0,0.25);
+
+text-align:center;
+
+}
+
+/* FOTO */
+
+.foto{
+
+width:120px;
+height:120px;
+border-radius:50%;
+margin-bottom:15px;
+border:2px solid white;
+object-fit:cover;
+box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+
+}
+
+/* NOME */
+
+.nome{
+
+color:white;
+font-size:26px;
+font-weight:bold;
+margin-bottom:5px;
+
+}
+
+.sub{
+
+color:white;
+opacity:0.9;
+font-size:14px;
+margin-bottom:25px;
+
+}
+
+/* BOTÕES */
+
+.botao{
+
+display:block;
+width:100%;
+padding:15px;
+margin:10px 0;
+
+text-decoration:none;
+color:white;
+font-weight:bold;
+font-size:16px;
+
+background: rgba(255,255,255,0.2);
+border-radius:14px;
+
+border:1px solid rgba(255,255,255,0.4);
+
+transition:0.3s;
+
+}
+
+
+.botao:hover{
+
+background: rgba(255,255,255,0.35);
+transform: scale(1.05);
+
+}
+
+.botao i{
+margin-right:10px;
+font-size:18px;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- HELLO KITTY -->
+<img class="hello hello1" src="pompurin.png">
+<img class="hello hello2" src="cinnamorol.png">
+
+<div class="container">
+
+<img src="foto.jpg" class="foto">
+
+<div class="nome">Achadinhos Baratos</div>
+<div class="sub">Os melhores achados da internet 🛍️</div>
+
+
+<a class="botao" href="https://www.instagram.com/achadosbaratos2yk?igsh=OG11cW1pZzNrcHEw&utm_source=qr">Instagram
+    <i class="fa-brands fa-instagram"></i>
+</a>
+<a class="botao" href="https://www.tiktok.com/@achados.baratos21?_r=1&_t=ZS-94gri2koQGz">TikTok
+    <i class="fa-brands fa-tiktok"></i>
+</a>
+<a class="botao" href="https://whatsapp.com/channel/0029Vb8Mtqe8fewpkLTVqO2j">Grupo WhatsApp
+    <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+</div>
+
+</body>
+</html>
